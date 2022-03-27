@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #466ff4;
+    background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -43,57 +43,40 @@ margin: 20px 0px;
     box-shadow: 0 0 10px #466ff4;
 }
 
-/* home section */
+/* about me */
 
-#home {
-    display: flex;
-    flex-direction: column;
+.am-column {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
 }
 
-#home::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: url();
+.am-card {
+    box-shadow: 0 4px 8px p rgba(0, 0, 0, 0.2);
+    margin: 8px;
 }
 
-/* About me section*/
-
-
-
-#About-Me {
-    display: flex;
-    flex-direction: column;
+.about-me {
+    padding: 50px;
+    text-align: center;
+    background-color: #466ff4;
+    color: black;
 }
 
-#pic img {
-    width: 375px;
-    height: auto;
+.am-container {
+    padding: 0 16px;
 }
 
-.about-img {
-    
-    display: flex;
-}
-
-.section-title {
-    font-weight: bold;
-}
-
-/* picture button link to run buddy */
-
-.container {
-    position: relative;
-    width: 50%;
-}
-
-.container img {
-    width: 50%;
-    height: auto;
-}
-
-
-
-
-
+.am-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #466ff4;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
