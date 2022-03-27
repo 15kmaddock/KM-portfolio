@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #466ff4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 /* Navbar */
 
@@ -30,13 +34,13 @@ margin: 20px 0px;
 .navbar ul li a {
     text-decoration: none;
     color: white;
-    padding: 5px 25px;
+    padding: 8px 25px;
 }
 
 .navbar ul li a:hover {
-    background-color: gray;
+    background-color: #466ff4;
     color: black;
-    box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 10px #466ff4;
 }
 
 /* home section */
@@ -53,3 +57,30 @@ margin: 20px 0px;
     right: 0;
     background: url();
 }
+
+/* About me section*/
+
+
+
+#About-Me {
+    display: flex;
+    flex-direction: column;
+}
+
+#pic img {
+    width: 375px;
+    height: auto;
+}
+
+.about-img {
+    
+    display: flex;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+
+
+

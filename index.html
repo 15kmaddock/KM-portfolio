@@ -3,7 +3,7 @@
     <head>
 
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale= 1.0">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
         <title>Kody Maddock Portfolio</title>
 
 
@@ -15,10 +15,10 @@
     <body>
         <nav class="navbar">
             <ul>
-                <li> <a href="#">Home</a> </li>
-                <li> <a href="#">About Me</a></li> 
-                <li> <a href="#">Portfolio</a></li>
-                <li> <a href="#">Contact</a></li>
+                <li> <a href="#Home">Home</a> </li>
+                <li> <a href="#About-Me">About Me</a></li> 
+                <li> <a href="#Portfolio">Portfolio</a></li>
+                <li> <a href="#Contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -28,5 +28,73 @@
             </div>
 
         </section>
+
+
+        <section id="About-Me">
+            <div id="pic" class="section-title">
+                <img src="./Assets/images/KM.jpg" alt="Image of me" class="about-img">
+                <div id="intro">
+                    <h2>About Me</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis voluptatum, consequuntur expedita mollitia delectus ab atque. Eius soluta possimus aspernatur mollitia. Dolores voluptates odio ab aperiam quisquam veritatis fugit consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda saepe ipsam velit temporibus deserunt, facilis maiores cupiditate reiciendis sapiente praesentium. Tenetur repudiandae quis dolore maxime porro sint, adipisci quas magni?
+                    </p>
+                </div>
+            </div>
+           
+        </section>
+
+        
+        <section  id="Portfolio" >
+            <div class="section-title" >
+                <h2>Portfolio</h2>
+                <p>
+
+                </p>
+            </div>
+            
+        </section>
+
+
+        <section id="Contact">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>
+                    Contact me for inqueries!
+                </p>
+            </div>
+                <div class="ct-row">
+                    <div class="ct-colum">
+                        <img src="./Assets/icons/contact-me.png">
+                    </div>
+                    <div class="ct-colum">
+                        <form action="/action_page.php">
+                            <label for="fname">First name</label>
+                            <input type="text" id="fname" name="First Name" placeholder="Your name...">
+
+                            <label for="lname">Last name</label>
+                            <input type="text" id="lname" name="Last Name" placeholder="Your last name...">
+
+                            <label for="email">Email Adress</label>
+                            <input type="text" id="email" name="Email-Adress" placeholder="Your Email adress..">
+
+                            <label for="Message">Message</label>
+                            <textarea id="Message" name="Message" placeholder="Message Me..." style="height: 170px;"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+
+                    </div>
+                </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
     </body>
 </html>
